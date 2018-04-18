@@ -20,7 +20,9 @@
         "iutbay/yii2-kcfinder": "dev-master",
         "zyx/zyx-phpmailer": "dev-master",
         "yiisoft/yii2-jui": "*",
-        "tecnickcom/tcpdf": "^6.2"
+        "tecnickcom/tcpdf": "^6.2",
+        "johnitvn/yii2-ajaxcrud": "^2.1",
+        "kartik-v/yii2-widget-select2": "^2.1"
     },
     "require-dev": {
         "yiisoft/yii2-debug": "~2.0.0",
