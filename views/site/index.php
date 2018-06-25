@@ -1,13 +1,16 @@
 <?php
 
-/* @var $this yii\web\View */
-
+use yii\web\View;
+/* @var $this View */
+//var_dump(\app\models\Package::find());die;
+//$model = \app\models\Package::find()->where(['name' => 'dsa'])->all();
+//var_dump($model);die;
 $this->title = 'My Yii Application';
 ?>
 <div class="site-index">
 
     <div class="jumbotron">
-        <h1>Congratulations!</h1>
+        <h1>Congratulations!<?= Yii::$app->user->identity->study_program_id ?></h1>
 
         <p class="lead">You have successfully created your Yii-powered application.</p>
 
