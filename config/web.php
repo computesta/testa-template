@@ -76,8 +76,6 @@ $config = [
         'class' => 'mdm\admin\components\AccessControl',
         'allowActions' => [
             'site/*',
-			'activity/*',
-			'gii/*',
             'admin/*', //untuk setting role admin diawal
             'user/*', //untuk setting user diawal
         ]
@@ -90,9 +88,6 @@ $config = [
         'admin' => [
             'class' => 'mdm\admin\Module',
             'layout' => '@app/themes/layouts/main',
-        ],
-        'gridview' => [
-            'class' => 'kartik\grid\Module',
         ],
     ],
     'params' => $params,
